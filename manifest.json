@@ -6,8 +6,8 @@
     "slug": "socket_qqnt",
     "description": "在 LiteLoaderQQNT 中使用 socket.io (Client)",
     "version": "1.0.0",
-    "icon": "./icon.png",
-    "thumb": "./icon.svg",
+    "icon": null,
+    "thumb": null,
     "authors": [
         {
             "name": "Chumenta",
