@@ -1,6 +1,7 @@
 # LiteLoaderQQNT socket.io Support
 
 Name: LiteLoaderQQNT socket.io support Plugin
+
 插件名：socket.QQNT
 
 This framework plugin allows you to use [`socket.io`](https://socket.io/) in your LiteLoaderQQNT scripts or extension.
