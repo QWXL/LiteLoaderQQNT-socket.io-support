@@ -60,4 +60,4 @@ socket.disconnect() // 与服务器断开连接。
 
 USE [MIT](LICENSE) LICENSE.
 
-Developer: Only [QWXL](https://github.com/QWXL) self.
+Developer: Only [QWXL](https://github.com/QWXL) (Chumenta) self.
