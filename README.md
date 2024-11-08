@@ -20,9 +20,9 @@ Was like any other plugin (Download zip from release, and put it into LiteLoader
 
 ## Usage 使用
 
-Read socket.io's docs: [https://socket.io/docs/v4/tutorial/introduction](To get started)
+Read socket.io's docs: [Get Started](https://socket.io/docs/v4/tutorial/introduction)
 
-去阅读 socket.io 的文档 [https://socket.io/docs/v4/tutorial/introduction](教程)
+去阅读 socket.io 的文档 [快速入门](https://socket.io/docs/v4/tutorial/introduction)
 
 Or, here is a simple example:
 
