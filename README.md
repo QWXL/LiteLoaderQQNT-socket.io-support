@@ -14,9 +14,9 @@ You can do everything you can do in [`socket.io`](https://socket.io/) in this pl
 
 ## Installation 安装
 
-Was like any other plugin (Download zip from release, and put it into LiteLoaderQQNT's plugins folder, restart), then you can find `io` in window object if it works.
+Was like any other plugin (Download zip from Releases, and put it into LiteLoaderQQNT's plugins folder, restart), then you can find `io` in window object if it works.
 
-插件安装方式与任何插件一样（从Release下载zip文件，然后放入LiteLoaderQQNT的plugins文件夹并重启），如果一切正常，你可以在 `window` 对象中找到 `io`。
+插件安装方式与任何插件一样（从Releases下载zip文件，然后放入LiteLoaderQQNT的plugins文件夹并重启），如果一切正常，你可以在 `window` 对象中找到 `io`。
 
 ## Usage 使用
 
