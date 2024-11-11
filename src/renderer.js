@@ -1,6 +1,13 @@
-import { io } from "./socket.io.esm.min.js"
-
-window.io = io
+/**
+ * Execute callback when socket.io is loaded
+ * @param {Function} callback 
+ * @param  {...any} args 
+ */
+function executeWhenIoLoaded(callback) {
+    callback(io)
+}
+executeWhenIoLoaded()
+window.executeWhenIoLoaded = executeWhenIoLoaded
 
 /**
  * Await for socket.io to be loaded
@@ -11,16 +18,11 @@ function waitingIoLoaded() {
         executeWhenIoLoaded(resolve)
     })
 }
-/**
- * Execute callback when socket.io is loaded
- * @param {Function} callback 
- * @param  {...any} args 
- */
-function executeWhenIoLoaded(callback) {
-    callback(io)
-}
-executeWhenIoLoaded()
+window.waitingIoLoaded = waitingIoLoaded
 
+import { io } from "./socket.io.esm.min.js"
+
+window.io = io
 
 console.log("LiteLoaderQQNT socket.io support loaded!")
 console.log("Variable \"io\" has been loaded into Window")
