@@ -16,8 +16,8 @@ function waitingIoLoaded() {
  * @param {Function} callback 
  * @param  {...any} args 
  */
-function executeWhenIoLoaded(callback, ...args) {
-    callback(...args)
+function executeWhenIoLoaded(callback) {
+    callback(io)
 }
 executeWhenIoLoaded()
 
@@ -26,5 +26,7 @@ console.log("LiteLoaderQQNT socket.io support loaded!")
 console.log("Variable \"io\" has been loaded into Window")
 
 export {
-    io
+    io,
+    waitingIoLoaded,
+    executeWhenIoLoaded
 }
