@@ -67,7 +67,7 @@ Now, you can use these two methods to ensure that the `io` is loaded:
 await waitingIoLoaded() // The methods will resolve if io has loaded.
 
 executeWhenIoLoaded((io) => {
-/* Some code you want run, when io loaded */
+/* Some code, run when io loaded */
 })
 
 
