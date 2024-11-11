@@ -56,6 +56,23 @@ socket.disconnect() // 与服务器断开连接。
 
 ```
 
+### Ver 1.0.1 Update:
+
+Now, you can use these two methods to ensure that the `io` is loaded:
+
+现在，可以使用这两个方法去保证 `io` 已被加载。
+
+```javascript
+
+await waitingIoLoaded() // The methods will resolve if io has loaded.
+
+executeWhenIoLoaded((io) => {
+/* Some code you want run, when io loaded */
+})
+
+
+```
+
 ## Licenses & Developers 开源协议与开发者
 
 USE [MIT](LICENSE) LICENSE.
