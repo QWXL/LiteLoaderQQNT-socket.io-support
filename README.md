@@ -37,7 +37,7 @@ socket.on('disconnect', () => {/* When disconnected */})
 socket.on('any-message', (data) => {/* When receive a "any-message" */})
 
 socket.emit('any-message', 'Hello World!' /* Emit something on "any-message" channel */)
-socket.connent() // Connect to server (Manually, unless you set autoConnect to false)
+socket.connect() // Connect to server (Manually, unless you set autoConnect to false)
 socket.disconnect() // Disconnect from server
 
 ```
@@ -51,7 +51,7 @@ socket.on('disconnect', () => {/* 当断开时... */})
 socket.on('any-message', (data) => {/* 当收到"any-message"时... */})
 
 socket.emit('any-message', 'Hello World!' /* 广播在 "any-message" 频道... */)
-socket.connent() // 连接至服务器（手动的，除非你将"autoConnect"设为false，否则无需这样做）。
+socket.connect() // 连接至服务器（手动的，除非你将"autoConnect"设为false，否则无需这样做）。
 socket.disconnect() // 与服务器断开连接。
 
 ```
